@@ -1,0 +1,80 @@
+.navbar {
+  width: 100%;
+  height: 2rem;
+  /* padding: .2rem; */
+  background-color: rgb(250,245,245);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(105,40,40)
+  
+}
+
+.logo, .tagline {
+  font-family: 'Mansalva', cursive;
+  color: rgb(10, 5, 5);
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-left: 1.4rem;
+}
+
+.hero {
+  
+  overflow: hidden;
+  height: 16rem;
+  width: 100%;
+  border-bottom: 1px solid rgb(255,250,250)
+}
+
+.heroImg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url('../../media/sea-salt-reserve-resort.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content-container {
+  width: 100%;
+  height: 28rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.store-lead {
+  height: 100%;
+  width: 80%;
+  background: linear-gradient(to bottom, rgba(153,147,146,0.53) 0%,rgba(214,202,201,0.48) 50%,rgba(239,211,210,0.42) 100%), url('../../media/sea-salt-in-white-bowls.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 967px;
+}
+
+.store-line {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: 1.2rem;
+  color: rgb(250, 245, 245);
+  text-shadow: rgb(10, 5, 5) 1px 1px 2px;
+}
+
+.social-container {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(250, 245, 245);
+}
